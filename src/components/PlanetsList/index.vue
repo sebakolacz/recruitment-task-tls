@@ -1,6 +1,6 @@
 <template>
   <div class="PlanetsList">
-     Tu bedzie lista planet
+    {{info}}
   </div>
 </template>
 <style src="./style.sass" lang="sass" scoped></style>
