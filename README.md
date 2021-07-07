@@ -8,13 +8,13 @@ yarn install
 
 Zadanie polega na utworzeniu strony wyświetlającej listę planet. 
 
-Lista powinna zostać pobrana z zewnętrznego API znajdującego się pod tym adresem: https://swapi.dev/api/planets.
+Lista jest pobrana z zewnętrznego API znajdującego się pod tym adresem: https://swapi.dev/api/planets.
 
-Do pobrania danych z API wykorzystaj **AJAX**.
+Do pobrania danych z API wykorzystany został **AJAX**.
 
-Zapytania z API idą czasem bardzo długo, więc należałoby dodać loading. 
+Zapytania z API idą czasem bardzo długo, więc został dodany loading. 
 
-Każdy element listy powinien być ostylowany oraz powinien zawierać następujące parametry:
+Każdy element listy został ostylowany oraz zawiera następujące parametry:
 * name
 * rotation_period
 * climate
@@ -23,11 +23,3 @@ Każdy element listy powinien być ostylowany oraz powinien zawierać następuj�
 * url
 
 Dodatkowym plusem będzie stworzenie paginacji oraz filtrowania aktualnej strony po którymś z parametrów oraz posortowanie listy alfabetycznie.
-
-Możesz wykorzystać bibliotekę komponentów **Element UI**. 
-
-Finalny projekt zapisz jako repozytorium w w githubie i udostępnij nam link.
-
-W zadaniu staraj się zwracać uwagę na dobre praktyki oraz na to żeby aplikacja była responsywna.
-
-Jeśli nie uda Ci się zrobić zadania na czas lub będziesz miał problem z komunikacją z API, możesz skupić się tylko na ostylowaniu listy dla jakiś statycznych danych oraz na responsywności.
